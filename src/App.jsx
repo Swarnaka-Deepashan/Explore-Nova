@@ -13,22 +13,22 @@ const App = () => {
   return (
     <main className="relative">
       <Nav />
-      <section className="sm:pb-32 pb-20">
+      <section className="pb-20 sm:pb-32">
         <Home />
       </section>
-      <section className="xl:px-24 px-10 sm:pb-32 pb-20">
+      <section className="padding-common">
         <Locations />
       </section>
-      <section className="xl:px-24 px-10 sm:pb-32 pb-20">
+      <section className="padding-common">
         <Tour />
       </section>
-      <section className="xl:px-24 px-10 sm:pb-32 pb-20">
+      <section className="padding-common">
         <Packages />
       </section>
-      <section className="xl:px-24 px-10 sm:pb-32 pb-20">
+      <section className="padding-common">
         <Reviews />
       </section>
-      <section className="xl:px-24 px-10 sm:pb-32 pb-20">
+      <section className="padding-common">
         <Blogs />
       </section>
       <section className='pb-8 bg-black padding-x padding-t'>

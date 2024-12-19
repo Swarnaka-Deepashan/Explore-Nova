@@ -28,6 +28,9 @@
   .padding {
     @apply sm:px-16 px-8 sm:py-24 py-12;
   }
+  .padding-common {
+    @apply xl:px-24 px-10 sm:pb-32 pb-20;
+  }
 
   .padding-x {
     @apply sm:px-16 px-8;
